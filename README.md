@@ -93,28 +93,6 @@ To transform the cleaned data before applying machine learning algorithms, perfo
 
 ---
 
-## 🤖 ML Algorithm Application  
-
-- **🌲 RandomForest Classifier:**  
-  Uncomment the following line in `App.scala`:
-  ```scala
-  codeAlgorithms.applyAlgorithms(spark, transformedDF)
-  ```
-
-- **🚀 GBT Regression:**  
-  Uncomment the following line:
-  ```scala
-  GbtAlgorithm.applyAlgorithms(spark, transformedDF)
-  ```
-
-- **📉 PCA-Linear Regression:**  
-  Uncomment the following line:
-  ```scala
-  PcaAlgorithm.applyAlgorithms(spark, transformedDF)
-  ```
-
----
-
 ## 🚀 Execution  
 
 ### **📦 Building the JAR**  
